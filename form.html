@@ -1,49 +1,45 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2487.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000; min-height: 14.0px}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; -webkit-text-stroke: #000000; background-color: #ffffff; min-height: 13.0px}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; -webkit-text-stroke: #000000; background-color: #ffffff}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; -webkit-text-stroke: #000000; min-height: 13.0px}
-    span.s1 {font-kerning: none}
-    span.s2 {font: 11.0px Times; font-kerning: none}
-    span.s3 {font-kerning: none; background-color: #ffffff}
-    span.s4 {font: 12.0px Times; font-kerning: none}
-    span.Apple-tab-span {white-space:pre}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">Title</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">Description</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">Category</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">Priority level</span></p>
-<p class="p3"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s2">1</span></p>
-<p class="p4"><span class="s1"><span class="Apple-tab-span">	</span></span><span class="s2">2</span></p>
-<p class="p4"><span class="s1"><span class="Apple-tab-span">	</span></span><span class="s2">3</span></p>
-<p class="p4"><span class="s1"><span class="Apple-tab-span">	</span></span><span class="s2">4</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s4"><span class="Apple-converted-space"> </span></span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">Progress Level</span></p>
-<p class="p3"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
-<p class="p4"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s2">1</span></p>
-<p class="p4"><span class="s1"><span class="Apple-tab-span">	</span></span><span class="s2">2</span></p>
-<p class="p4"><span class="s1"><span class="Apple-tab-span">	</span></span><span class="s2">3</span></p>
-<p class="p4"><span class="s1"><span class="Apple-tab-span">	</span></span><span class="s2">4</span></p>
-<p class="p5"><span class="s3"><span class="Apple-converted-space">            </span></span><span class="s4"><span class="Apple-converted-space"> </span></span></p>
-<p class="p2"><span class="s1"></span><br></p>
-</body>
+    <body>
+        <table>
+            <tr>
+        <th><link>
+<a href="form.html">Form Page</a>
+</link></th>
+<th><link><a href ="tasks.html">Task Page</a>
+</th>
+</tr>
+</table>
+<br><br>
+        <form action="/action_page.php">
+            <header>Title</header>
+            <input type="text" name="title">
+            <br><br>
+            <header>Description</header>
+            <input type="text" name="description">
+            <br><br>
+            <header>Category</header> 
+            <input type="text" name="category">
+            <br><br>
+            <header>Priority level</header>
+            <select name="Priority Level">
+    <option  value="" placeholder="Select an item" disabled selected hidden>Select an item</option>
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+            </select>
+            <br><br>
+            <header>Progress Level</header>
+            <select name="Progress Level">
+    <option  value="" placeholder="Select an item" disabled selected hidden>Select an item</option>
+    <option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
 </html>
